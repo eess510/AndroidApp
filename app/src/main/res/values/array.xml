@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="artist">
+
+        <item>여자(아이들)</item>
+        <item>AB6IX (에이비식스)</item>
+        <item>aespa (에스파)</item>
+        <item>BLACKPINK (블랙핑크)</item>
+        <item>CIX (씨아이엑스)</item>
+        <item>DAY6 (데이식스)</item>
+        <item>ITZY (있지)</item>
+        <item>NCT</item>
+        <item>SF9</item>
+        <item>Stray Kids (스트레이 키즈)</item>
+        <item>더보이즈 (THE BOYZ)</item>
+        <item>몬스타엑스 (Monsta X)</item>
+        <item>세븐틴 (SEVENTEEN)</item>
+        <item>투모로우바이투게더 (TXT)</item>
+
+    </string-array>
+
+
+    <string-array name="location">
+        <item>전국</item>
+        <item>서울</item>
+        <item>경기</item>
+        <item>인천</item>
+        <item>강원</item>
+        <item>대전</item>
+        <item>세종</item>
+        <item>충남</item>
+        <item>충북</item>
+        <item>부산</item>
+        <item>울산</item>
+        <item>경남</item>
+        <item>경북</item>
+        <item>대구</item>
+        <item>광주</item>
+        <item>전남</item>
+        <item>전북</item>
+        <item>제주</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#BDBDBD"
+    tools:context=".Main3"
+    >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#BDBDBD"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+
+                <ImageButton
+                    android:id="@+id/imagebtn1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/ic_baseline_navigate_before_24"
+                    android:background="#BDBDBD"
+
+                    android:onClick="Back"
+                    android:layout_gravity="left"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:orientation="vertical"
+                  >
+
+                        <Spinner
+                            android:id="@+id/spinner1"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:background="@drawable/spinner"
+                            android:textAlignment="center"
+                            android:layout_gravity="center"
+                            />
+        </LinearLayout>
+
+                <ListView
+                    android:id="@+id/Alistview"
+                    android:layout_width="370dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/listview_corner"
+                    android:divider="#BDBDBD"
+                    android:dividerHeight="5dp"
+                    android:textAlignment="center"
+                    />
+
+        </LinearLayout>
+</RelativeLayout>
